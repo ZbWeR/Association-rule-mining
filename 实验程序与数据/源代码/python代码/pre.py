@@ -34,7 +34,3 @@ for i in range(0,len(NewDa)-1):
         lincnt =lincnt+1
 workbook.save('dataset.xlsx')
 # 处理后的数据保存在dataset.xlsx
-
-
-
-
