@@ -205,7 +205,6 @@ class FPgrowth:
         return frequent_set, rules
 
 if __name__ == "__main__":
-    ST = time.time()
     # 设置最小支持度,置信度,挖掘项数
     tmp = FPgrowth(0.01,0.9,3)
     # path引号内的改为处理后数据集的路径
