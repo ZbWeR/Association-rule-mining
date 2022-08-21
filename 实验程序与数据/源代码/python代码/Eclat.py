@@ -131,7 +131,6 @@ class Eclat:
         
 
 if __name__ == "__main__":
-    StartT = time.time()
     # 设置最小支持度,置信度,挖掘项数
     tmp = Eclat(0.01,0.9,3)
     # path引号内的改为处理后数据集的路径
