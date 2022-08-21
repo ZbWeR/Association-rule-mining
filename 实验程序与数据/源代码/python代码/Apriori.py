@@ -113,7 +113,6 @@ def generate_big_rules(L, support_data, min_conf):
     return big_rule_list
 
 if __name__ == "__main__":
-    ST = time.time()
     data_set = load_data_set() # 加载数据
     E1 = time.time()
     # 挖掘关联规则
